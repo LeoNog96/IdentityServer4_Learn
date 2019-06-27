@@ -5,9 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MvcClient.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MvcClient.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public IActionResult Index()
@@ -18,6 +20,11 @@ namespace MvcClient.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+        
+        public IActionResult Logout()
+        {
+            return SignOut("Cookies", "oidc");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -151,3 +151,199 @@ System.InvalidOperationException: Unable to find the required services. Please a
 2019-06-27 13:30:39.612 -03:00 [INF] AuthenticationScheme: idsrv was challenged.
 2019-06-27 13:30:50.666 -03:00 [INF] AuthenticationScheme: idsrv was challenged.
 2019-06-27 13:30:59.576 -03:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-06-27 13:49:54.872 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-06-27 13:49:54.946 -03:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-06-27 13:49:54.959 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-06-27 13:49:54.960 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-06-27 13:49:54.961 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-06-27 13:49:54.962 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-06-27 13:49:54.962 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-06-27 13:51:52.684 -03:00 [DBG] Login Url: /Account/Login
+2019-06-27 13:51:52.686 -03:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-06-27 13:51:52.687 -03:00 [DBG] Logout Url: /Account/Logout
+2019-06-27 13:51:52.687 -03:00 [DBG] ConsentUrl Url: /consent
+2019-06-27 13:51:52.687 -03:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-06-27 13:51:52.687 -03:00 [DBG] Error Url: /home/error
+2019-06-27 13:51:52.687 -03:00 [DBG] Error Id Parameter: errorId
+2019-06-27 13:51:52.725 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-06-27 13:51:52.729 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-06-27 13:51:52.729 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-06-27 13:51:52.736 -03:00 [DBG] Start discovery request
+2019-06-27 13:51:52.916 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-06-27 13:51:52.922 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-06-27 13:51:52.922 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-06-27 13:51:52.931 -03:00 [DBG] Start key discovery request
+2019-06-27 13:51:53.016 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-06-27 13:51:53.028 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-06-27 13:51:53.028 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-06-27 13:51:53.037 -03:00 [DBG] Start authorize request
+2019-06-27 13:51:53.051 -03:00 [DBG] No user present in authorize request
+2019-06-27 13:51:53.057 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 13:51:53.089 -03:00 [ERR] Unknown client or not enabled: mvc
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972511129722443.M2JlOTEwOTQtYTRmNy00YmViLTkyMGEtMzA4YTZjYTRiMTVmNTA3MjM5ZTctYmU4NS00YjBlLTg2MjctY2NhNmJiYjdlMTA4","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRkkzGh9nrNqGNgN_ErBVpTW9_nYT13PuLReb9Epwgnn1em6UcSBppsDZCXHgJiG0RjJTdWNdDhwCbt_mhHynkjVM35NWRRDPbwkfxFhkSsJl5n2tEDb0B3nUbJjemSunYSHP_CJFkJYhrAnUsXA4Webb0F_DTZAFaw4yFtFyqc0KCQ-haVWP3YWeb6GmJG2xk3gmq-rcT_Vittvaw6Qimn94RwrOi4tUcyBDAJxRWHZQZIbeUWV5onE_1WFLaMsctrSnjW8K0C1jLsWrADSXNct3gjONii5mRQtwBRh_GrBKA","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 13:51:53.107 -03:00 [ERR] Request validation failed
+2019-06-27 13:51:53.108 -03:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972511129722443.M2JlOTEwOTQtYTRmNy00YmViLTkyMGEtMzA4YTZjYTRiMTVmNTA3MjM5ZTctYmU4NS00YjBlLTg2MjctY2NhNmJiYjdlMTA4","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRkkzGh9nrNqGNgN_ErBVpTW9_nYT13PuLReb9Epwgnn1em6UcSBppsDZCXHgJiG0RjJTdWNdDhwCbt_mhHynkjVM35NWRRDPbwkfxFhkSsJl5n2tEDb0B3nUbJjemSunYSHP_CJFkJYhrAnUsXA4Webb0F_DTZAFaw4yFtFyqc0KCQ-haVWP3YWeb6GmJG2xk3gmq-rcT_Vittvaw6Qimn94RwrOi4tUcyBDAJxRWHZQZIbeUWV5onE_1WFLaMsctrSnjW8K0C1jLsWrADSXNct3gjONii5mRQtwBRh_GrBKA","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 14:01:50.753 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-06-27 14:01:50.796 -03:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-06-27 14:01:50.800 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-06-27 14:01:50.800 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-06-27 14:01:50.800 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-06-27 14:01:50.800 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-06-27 14:01:50.801 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-06-27 14:01:54.293 -03:00 [DBG] Login Url: /Account/Login
+2019-06-27 14:01:54.296 -03:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-06-27 14:01:54.297 -03:00 [DBG] Logout Url: /Account/Logout
+2019-06-27 14:01:54.297 -03:00 [DBG] ConsentUrl Url: /consent
+2019-06-27 14:01:54.297 -03:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-06-27 14:01:54.297 -03:00 [DBG] Error Url: /home/error
+2019-06-27 14:01:54.298 -03:00 [DBG] Error Id Parameter: errorId
+2019-06-27 14:01:54.344 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-06-27 14:01:54.352 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-06-27 14:01:54.353 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-06-27 14:01:54.358 -03:00 [DBG] Start discovery request
+2019-06-27 14:01:54.535 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-06-27 14:01:54.541 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-06-27 14:01:54.542 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-06-27 14:01:54.548 -03:00 [DBG] Start key discovery request
+2019-06-27 14:01:54.615 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-06-27 14:01:54.619 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-06-27 14:01:54.620 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-06-27 14:01:54.633 -03:00 [DBG] Start authorize request
+2019-06-27 14:01:54.651 -03:00 [DBG] No user present in authorize request
+2019-06-27 14:01:54.658 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:01:54.693 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:01:54.755 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:01:54.779 -03:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvc","ClientName":"MVC Client","RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","UiLocales":null,"Nonce":"636972517145935486.MzA0MDg5YmUtOTllMC00YTA4LTkyMTUtNmUzM2U5YTAwNzc0NDYzNmQ4YjEtYzI5ZC00MzAzLThlNmEtZTVjNjA3M2VkYmU4","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972517145935486.MzA0MDg5YmUtOTllMC00YTA4LTkyMTUtNmUzM2U5YTAwNzc0NDYzNmQ4YjEtYzI5ZC00MzAzLThlNmEtZTVjNjA3M2VkYmU4","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 14:01:54.818 -03:00 [INF] Showing login: User is not authenticated
+2019-06-27 14:01:55.034 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:01:55.035 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:01:55.035 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:01:55.038 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:16.891 -03:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-06-27 14:02:16.947 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:02:16.948 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:16.948 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:02:16.980 -03:00 [DBG] Augmenting SignInContext
+2019-06-27 14:02:16.983 -03:00 [DBG] Adding idp claim with value: local
+2019-06-27 14:02:16.984 -03:00 [DBG] Adding amr claim with value: pwd
+2019-06-27 14:02:17.002 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-06-27 14:02:17.008 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:17.014 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-06-27 14:02:17.015 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-06-27 14:02:17.016 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-06-27 14:02:17.026 -03:00 [DBG] Start authorize callback request
+2019-06-27 14:02:17.031 -03:00 [DBG] User in authorize request: 1
+2019-06-27 14:02:17.035 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:02:17.036 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:17.041 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:02:17.041 -03:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvc","ClientName":"MVC Client","RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"1","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","UiLocales":null,"Nonce":"636972517145935486.MzA0MDg5YmUtOTllMC00YTA4LTkyMTUtNmUzM2U5YTAwNzc0NDYzNmQ4YjEtYzI5ZC00MzAzLThlNmEtZTVjNjA3M2VkYmU4","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"1fb6f2d0903f66272c95247e99409448","Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972517145935486.MzA0MDg5YmUtOTllMC00YTA4LTkyMTUtNmUzM2U5YTAwNzc0NDYzNmQ4YjEtYzI5ZC00MzAzLThlNmEtZTVjNjA3M2VkYmU4","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 14:02:17.045 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-06-27 14:02:17.064 -03:00 [DBG] user_consent grant with value: mvc|1 not found in store.
+2019-06-27 14:02:17.064 -03:00 [DBG] Found no prior consent from consent store, consent is required
+2019-06-27 14:02:17.065 -03:00 [INF] Showing consent: User has not yet consented
+2019-06-27 14:02:17.099 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:02:17.100 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:17.102 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:02:17.103 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:27.704 -03:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-06-27 14:02:27.726 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:02:27.726 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:27.729 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:02:27.754 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:27.759 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-06-27 14:02:27.761 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-06-27 14:02:27.763 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-06-27 14:02:27.764 -03:00 [DBG] Start authorize callback request
+2019-06-27 14:02:27.770 -03:00 [DBG] User in authorize request: 1
+2019-06-27 14:02:27.770 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:02:27.770 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:02:27.771 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:02:27.771 -03:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvc","ClientName":"MVC Client","RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"1","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","UiLocales":null,"Nonce":"636972517145935486.MzA0MDg5YmUtOTllMC00YTA4LTkyMTUtNmUzM2U5YTAwNzc0NDYzNmQ4YjEtYzI5ZC00MzAzLThlNmEtZTVjNjA3M2VkYmU4","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"1fb6f2d0903f66272c95247e99409448","Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972517145935486.MzA0MDg5YmUtOTllMC00YTA4LTkyMTUtNmUzM2U5YTAwNzc0NDYzNmQ4YjEtYzI5ZC00MzAzLThlNmEtZTVjNjA3M2VkYmU4","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 14:02:27.776 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-06-27 14:02:27.778 -03:00 [DBG] user_consent grant with value: mvc|1 not found in store.
+2019-06-27 14:02:27.779 -03:00 [DBG] Found no prior consent from consent store, consent is required
+2019-06-27 14:02:27.787 -03:00 [INF] User consented to scopes: ["openid","profile"]
+2019-06-27 14:02:27.790 -03:00 [DBG] User indicated to remember consent for scopes: ["openid","profile"]
+2019-06-27 14:02:27.799 -03:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 1
+2019-06-27 14:02:27.826 -03:00 [DBG] Creating Implicit Flow response.
+2019-06-27 14:02:27.841 -03:00 [DBG] Getting claims for identity token for subject: 1 and client: mvc
+2019-06-27 14:02:27.851 -03:00 [DBG] Get profile called for subject 1 from client MVC Client with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2019-06-27 14:02:27.854 -03:00 [DBG] Issued claims: []
+2019-06-27 14:02:27.980 -03:00 [INF] Authorize endpoint response
+{"SubjectId":"1","ClientId":"mvc","RedirectUri":"http://localhost:5002/signin-oidc","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmljQFU2OzQ2ZdmFyMS-V3hKyI9mIGu94NSvCctNrnvQboDhY1CX80WYNUN4G-m4P1fnWqEcRtWHNlDDLiKaNp2GCrov9_t6vDG07xqoM5F3nJBqmnA4AN9CUt1XRrZhOA3qPAyW0EGXyopZUSEs6Q5B5uSelGnHLEgD4vsdSTIblbnAXNKOBI4m11LhcEhMdxv537Xl6WgwNC6fvKZ8756aH9bQIL-chjG3_kUvOpi5OrMcQ7tknwhOk9IupqLDyxpI19hE0fx6759yJUABq94dJFNPTb-eaB-YOwIOq-3FQ","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-06-27 14:02:28.008 -03:00 [DBG] Augmenting SignInContext
+2019-06-27 14:02:28.009 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-06-27 14:05:19.025 -03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-06-27 14:05:19.028 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-06-27 14:05:19.038 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-06-27 14:05:19.039 -03:00 [DBG] Start discovery request
+2019-06-27 14:05:19.161 -03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-06-27 14:05:19.161 -03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-06-27 14:05:19.162 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-06-27 14:05:19.162 -03:00 [DBG] Start key discovery request
+2019-06-27 14:05:19.435 -03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-06-27 14:05:19.436 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-06-27 14:05:19.438 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-06-27 14:05:19.438 -03:00 [DBG] Start authorize request
+2019-06-27 14:05:19.439 -03:00 [DBG] No user present in authorize request
+2019-06-27 14:05:19.439 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:05:19.441 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:05:19.441 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:05:19.442 -03:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvc","ClientName":"MVC Client","RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmNN5Y6Q5j5E0TEVaSLq70PAicH1y_0txMUsk4iHjWuWeTxYkDjp9GlWus_37wZb0Uk5XEbKdndHswuLfm-HC4xqbQFXVrHBI7j2NRqs5g54CdEzIStTnXaZQb5uiOCdF3SJeW9r2dkvSCet_GvOXpOhKiJPJu6DXAgm0YldY5QK0-tbAF2DUtfXlSGm4w9upSCyDYQOwBtgNO8_6Ak-1j7NWHF2Ny1PEqdyaQhJikhEdbd0xzN2dDQo3MjrjS4WCQJito1uz8RJGWMWaa3kUH_HasrjxIoBIDYLX06pqzU7Q","UiLocales":null,"Nonce":"636972519191850677.OTUyY2MxZTktNGIwYi00ZjgwLTllYzktODIyOTY1ZTc0OTFmNzM2ZmE4NDYtMTc2NS00YWI2LThlNmMtYjhkNDhhNzEyYzhl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972519191850677.OTUyY2MxZTktNGIwYi00ZjgwLTllYzktODIyOTY1ZTc0OTFmNzM2ZmE4NDYtMTc2NS00YWI2LThlNmMtYjhkNDhhNzEyYzhl","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmNN5Y6Q5j5E0TEVaSLq70PAicH1y_0txMUsk4iHjWuWeTxYkDjp9GlWus_37wZb0Uk5XEbKdndHswuLfm-HC4xqbQFXVrHBI7j2NRqs5g54CdEzIStTnXaZQb5uiOCdF3SJeW9r2dkvSCet_GvOXpOhKiJPJu6DXAgm0YldY5QK0-tbAF2DUtfXlSGm4w9upSCyDYQOwBtgNO8_6Ak-1j7NWHF2Ny1PEqdyaQhJikhEdbd0xzN2dDQo3MjrjS4WCQJito1uz8RJGWMWaa3kUH_HasrjxIoBIDYLX06pqzU7Q","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 14:05:19.445 -03:00 [INF] Showing login: User is not authenticated
+2019-06-27 14:05:19.451 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:05:19.452 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:05:19.454 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:05:19.458 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:05:45.105 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:05:45.106 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:05:45.106 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:05:45.107 -03:00 [DBG] Augmenting SignInContext
+2019-06-27 14:05:45.107 -03:00 [DBG] Adding idp claim with value: local
+2019-06-27 14:05:45.107 -03:00 [DBG] Adding amr claim with value: pwd
+2019-06-27 14:05:45.108 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-06-27 14:05:45.110 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:05:45.127 -03:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-06-27 14:05:45.130 -03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-06-27 14:05:45.130 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-06-27 14:05:45.131 -03:00 [DBG] Start authorize callback request
+2019-06-27 14:05:45.132 -03:00 [DBG] User in authorize request: 1
+2019-06-27 14:05:45.132 -03:00 [DBG] Start authorize request protocol validation
+2019-06-27 14:05:45.133 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:05:45.133 -03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-06-27 14:05:45.134 -03:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"mvc","ClientName":"MVC Client","RedirectUri":"http://localhost:5002/signin-oidc","AllowedRedirectUris":["http://localhost:5002/signin-oidc"],"SubjectId":"1","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmNN5Y6Q5j5E0TEVaSLq70PAicH1y_0txMUsk4iHjWuWeTxYkDjp9GlWus_37wZb0Uk5XEbKdndHswuLfm-HC4xqbQFXVrHBI7j2NRqs5g54CdEzIStTnXaZQb5uiOCdF3SJeW9r2dkvSCet_GvOXpOhKiJPJu6DXAgm0YldY5QK0-tbAF2DUtfXlSGm4w9upSCyDYQOwBtgNO8_6Ak-1j7NWHF2Ny1PEqdyaQhJikhEdbd0xzN2dDQo3MjrjS4WCQJito1uz8RJGWMWaa3kUH_HasrjxIoBIDYLX06pqzU7Q","UiLocales":null,"Nonce":"636972519191850677.OTUyY2MxZTktNGIwYi00ZjgwLTllYzktODIyOTY1ZTc0OTFmNzM2ZmE4NDYtMTc2NS00YWI2LThlNmMtYjhkNDhhNzEyYzhl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"73d228eecb0e0f5533bc3d566ebdd3b7","Raw":{"client_id":"mvc","redirect_uri":"http://localhost:5002/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636972519191850677.OTUyY2MxZTktNGIwYi00ZjgwLTllYzktODIyOTY1ZTc0OTFmNzM2ZmE4NDYtMTc2NS00YWI2LThlNmMtYjhkNDhhNzEyYzhl","state":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmNN5Y6Q5j5E0TEVaSLq70PAicH1y_0txMUsk4iHjWuWeTxYkDjp9GlWus_37wZb0Uk5XEbKdndHswuLfm-HC4xqbQFXVrHBI7j2NRqs5g54CdEzIStTnXaZQb5uiOCdF3SJeW9r2dkvSCet_GvOXpOhKiJPJu6DXAgm0YldY5QK0-tbAF2DUtfXlSGm4w9upSCyDYQOwBtgNO8_6Ak-1j7NWHF2Ny1PEqdyaQhJikhEdbd0xzN2dDQo3MjrjS4WCQJito1uz8RJGWMWaa3kUH_HasrjxIoBIDYLX06pqzU7Q","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-06-27 14:05:45.137 -03:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-06-27 14:05:45.145 -03:00 [DBG] Consent found in consent store is same as current request, consent is not required
+2019-06-27 14:05:45.145 -03:00 [DBG] Creating Implicit Flow response.
+2019-06-27 14:05:45.146 -03:00 [DBG] Getting claims for identity token for subject: 1 and client: mvc
+2019-06-27 14:05:45.147 -03:00 [DBG] Get profile called for subject 1 from client MVC Client with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at"] via ClaimsProviderIdentityToken
+2019-06-27 14:05:45.147 -03:00 [DBG] Issued claims: []
+2019-06-27 14:05:45.151 -03:00 [INF] Authorize endpoint response
+{"SubjectId":"1","ClientId":"mvc","RedirectUri":"http://localhost:5002/signin-oidc","State":"CfDJ8FvRK4oR5KtJj0oAEPAXJRmNN5Y6Q5j5E0TEVaSLq70PAicH1y_0txMUsk4iHjWuWeTxYkDjp9GlWus_37wZb0Uk5XEbKdndHswuLfm-HC4xqbQFXVrHBI7j2NRqs5g54CdEzIStTnXaZQb5uiOCdF3SJeW9r2dkvSCet_GvOXpOhKiJPJu6DXAgm0YldY5QK0-tbAF2DUtfXlSGm4w9upSCyDYQOwBtgNO8_6Ak-1j7NWHF2Ny1PEqdyaQhJikhEdbd0xzN2dDQo3MjrjS4WCQJito1uz8RJGWMWaa3kUH_HasrjxIoBIDYLX06pqzU7Q","Scope":"openid profile","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-06-27 14:05:45.153 -03:00 [DBG] Augmenting SignInContext
+2019-06-27 14:05:45.153 -03:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-06-27 14:09:45.653 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:09:47.432 -03:00 [DBG] CORS request made for path: /grants/Revoke from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-06-27 14:09:51.612 -03:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-06-27 14:09:51.633 -03:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-06-27 14:09:51.670 -03:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-06-27 14:09:51.696 -03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-06-27 14:09:51.696 -03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-06-27 14:09:51.703 -03:00 [DBG] Processing signout callback request
+2019-06-27 14:09:51.723 -03:00 [DBG] client configuration validation for client mvc succeeded.
+2019-06-27 14:09:51.724 -03:00 [DBG] No client front-channel logout URLs
+2019-06-27 14:09:51.725 -03:00 [DBG] No client back-channel logout URLs
+2019-06-27 14:09:51.725 -03:00 [INF] Successful signout callback.
+2019-06-27 14:09:51.725 -03:00 [DBG] No client front-channel iframe urls
+2019-06-27 14:09:51.726 -03:00 [DBG] No client back-channel iframe urls
+2019-06-27 14:09:57.801 -03:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-06-27 14:10:28.400 -03:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-06-27 14:10:28.402 -03:00 [DBG] Augmenting SignInContext
+2019-06-27 14:10:28.402 -03:00 [DBG] Adding idp claim with value: local
+2019-06-27 14:10:28.402 -03:00 [DBG] Adding amr claim with value: pwd
+2019-06-27 14:10:28.403 -03:00 [INF] AuthenticationScheme: idsrv signed in.
