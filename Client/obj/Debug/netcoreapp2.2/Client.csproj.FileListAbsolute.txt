@@ -1,0 +1,11 @@
+D:\Documents\Oauth2\Client\bin\Debug\netcoreapp2.2\Client.deps.json
+D:\Documents\Oauth2\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.json
+D:\Documents\Oauth2\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
+D:\Documents\Oauth2\Client\bin\Debug\netcoreapp2.2\Client.dll
+D:\Documents\Oauth2\Client\bin\Debug\netcoreapp2.2\Client.pdb
+D:\Documents\Oauth2\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
+D:\Documents\Oauth2\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
+D:\Documents\Oauth2\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
+D:\Documents\Oauth2\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs
+D:\Documents\Oauth2\Client\obj\Debug\netcoreapp2.2\Client.dll
+D:\Documents\Oauth2\Client\obj\Debug\netcoreapp2.2\Client.pdb
