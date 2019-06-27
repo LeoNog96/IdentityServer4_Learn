@@ -1,0 +1,14 @@
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.csprojAssemblyReference.cache
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.csproj.CoreCompileInputs.cache
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.RazorAssemblyInfo.cache
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.RazorAssemblyInfo.cs
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.AssemblyInfoInputs.cache
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.AssemblyInfo.cs
+D:\Documents\Oauth2\IdentityServer\bin\Debug\netcoreapp2.1\IdentityServer.deps.json
+D:\Documents\Oauth2\IdentityServer\bin\Debug\netcoreapp2.1\IdentityServer.runtimeconfig.json
+D:\Documents\Oauth2\IdentityServer\bin\Debug\netcoreapp2.1\IdentityServer.runtimeconfig.dev.json
+D:\Documents\Oauth2\IdentityServer\bin\Debug\netcoreapp2.1\IdentityServer.dll
+D:\Documents\Oauth2\IdentityServer\bin\Debug\netcoreapp2.1\IdentityServer.pdb
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.RazorTargetAssemblyInfo.cache
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.dll
+D:\Documents\Oauth2\IdentityServer\obj\Debug\netcoreapp2.1\IdentityServer.pdb

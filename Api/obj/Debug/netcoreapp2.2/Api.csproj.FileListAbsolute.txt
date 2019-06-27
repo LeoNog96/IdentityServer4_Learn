@@ -1,0 +1,14 @@
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.csprojAssemblyReference.cache
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.csproj.CoreCompileInputs.cache
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.RazorAssemblyInfo.cache
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.RazorAssemblyInfo.cs
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.AssemblyInfoInputs.cache
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.AssemblyInfo.cs
+D:\Documents\Oauth2\Api\bin\Debug\netcoreapp2.2\Api.deps.json
+D:\Documents\Oauth2\Api\bin\Debug\netcoreapp2.2\Api.runtimeconfig.json
+D:\Documents\Oauth2\Api\bin\Debug\netcoreapp2.2\Api.runtimeconfig.dev.json
+D:\Documents\Oauth2\Api\bin\Debug\netcoreapp2.2\Api.dll
+D:\Documents\Oauth2\Api\bin\Debug\netcoreapp2.2\Api.pdb
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.RazorTargetAssemblyInfo.cache
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.dll
+D:\Documents\Oauth2\Api\obj\Debug\netcoreapp2.2\Api.pdb
