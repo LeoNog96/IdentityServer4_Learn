@@ -117,3 +117,37 @@
 {"ClientId":"client","ClientName":null,"GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
 2019-06-27 11:37:51.800 -03:00 [DBG] Getting claims for access token for client: client
 2019-06-27 11:37:51.805 -03:00 [DBG] Token request success.
+2019-06-27 13:28:47.767 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-06-27 13:28:47.809 -03:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-06-27 13:28:47.813 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-06-27 13:28:47.813 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-06-27 13:28:47.813 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-06-27 13:28:47.814 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-06-27 13:28:47.814 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-06-27 13:28:47.894 -03:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddMvc' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvc(IApplicationBuilder app, Action`1 configureRoutes)
+   at Microsoft.AspNetCore.Builder.MvcApplicationBuilderExtensions.UseMvcWithDefaultRoute(IApplicationBuilder app)
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in D:\Documents\Oauth2\IdentityServer\Startup.cs:line 55
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-06-27 13:30:01.008 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-06-27 13:30:01.057 -03:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-06-27 13:30:01.063 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-06-27 13:30:01.064 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-06-27 13:30:01.064 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-06-27 13:30:01.064 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-06-27 13:30:01.065 -03:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-06-27 13:30:05.980 -03:00 [DBG] Login Url: /Account/Login
+2019-06-27 13:30:05.983 -03:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-06-27 13:30:05.984 -03:00 [DBG] Logout Url: /Account/Logout
+2019-06-27 13:30:05.984 -03:00 [DBG] ConsentUrl Url: /consent
+2019-06-27 13:30:05.984 -03:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-06-27 13:30:05.985 -03:00 [DBG] Error Url: /home/error
+2019-06-27 13:30:05.985 -03:00 [DBG] Error Id Parameter: errorId
+2019-06-27 13:30:39.612 -03:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-06-27 13:30:50.666 -03:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-06-27 13:30:59.576 -03:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint

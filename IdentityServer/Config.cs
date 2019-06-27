@@ -27,8 +27,8 @@ namespace IdentityServer
             {
                 new Client
                 {
-                    ClientId = "client",
-
+                    // ClientId = "client",
+                    ClientId = "ro.client",
                     // no interactive user, use the clientid/secret for authentication
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
 
